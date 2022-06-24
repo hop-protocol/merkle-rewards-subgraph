@@ -12,6 +12,7 @@ export function handleClaimed(event: Claimed): void {
   entity.amount = event.params.amount
   entity.totalAmount = event.params.totalAmount
   entity.transactionHash = event.transaction.hash
+  entity.contractAddress = event.address
 
   entity.save()
 }
