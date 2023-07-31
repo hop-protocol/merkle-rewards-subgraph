@@ -68,6 +68,9 @@ config/*
 !config/matic.json
 !config/optimism.json
 !config/arbitrum-one.json
+!config/arbitrum-nova.json
+!config/nova.json
+!config/base.json
 
 buildfiles.sh
 !build.sh
